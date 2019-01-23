@@ -21,4 +21,10 @@ def test_no_parameters():
     if no parameters provided then return 0
     """
     assert add() == 0
+
+def test_one_two_three():
+    """
+    given the values one two and three as parameters , 6 should be return
+    """
+    assert add(1, 2 ,3) == 6
     
